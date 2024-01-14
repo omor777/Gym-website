@@ -1,0 +1,17 @@
+/* ! responsive for mobile */
+
+@media only screen and (max-width: 576px) {
+  /* ?navbar section */
+  nav {
+    padding: 15px 24px;
+  }
+  nav > ul {
+    display: none;
+  }
+  .for_mobile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
+

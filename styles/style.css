@@ -20,6 +20,12 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 /* ! header section styles here */
 
 nav {
@@ -78,3 +84,105 @@ nav a:hover {
 .for_mobile {
   display: none;
 }
+
+/* ! banner section */
+
+.banner {
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.banner_content {
+  flex: 7;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.star_position {
+  position: absolute;
+  right: 0;
+  top: 150px;
+}
+
+.circle_position {
+  position: absolute;
+  left: 0;
+  top: 360px;
+}
+
+.banner_img {
+  flex: 6;
+}
+.banner_img img {
+  width: 100%;
+}
+
+.banner_title {
+  max-width: 576px;
+  color: #d1c0f1;
+  font-family: Lora;
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.banner_title span {
+  border-radius: 16px;
+  background: linear-gradient(73deg, #ff52af 11.6%, #9f53ff 83.86%);
+  transform: rotate(10deg);
+  display: inline-block;
+  padding: 2px 13px 8px;
+  color: #fff;
+}
+
+.banner_desc {
+  max-width: 417px;
+  color: #a094b8;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.banner_btn {
+  margin-top: 32px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 28px;
+  border-radius: 64px;
+  background: linear-gradient(73deg, #ff52af 11.6%, #9f53ff 83.86%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat_container {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.stat_container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat_container h2 {
+  color: #d1c0f1;
+  font-family: Lora;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.stat_container p {
+  color: #d1c0f1;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+

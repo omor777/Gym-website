@@ -1,9 +1,12 @@
 /* ! responsive for mobile */
 
 @media only screen and (max-width: 576px) {
+  .container {
+    padding: 0 24px;
+  }
   /* ?navbar section */
   nav {
-    padding: 15px 24px;
+    padding: 15px 24px !important;
   }
   nav > ul {
     display: none;
@@ -17,18 +20,17 @@
   /* ! banner section */
   .banner {
     flex-direction: column;
-    padding: 0 24px;
   }
 
   .star_position {
     width: 52px;
     height: 50px;
-    top: 128px;
-    left: 36px;
+    top: 126px;
+    left: 8px;
   }
   .circle_position {
-    right: 60px;
-    top: 266px;
+    right: 39px;
+    top: 272px;
     left: unset;
   }
   .circle_position img {
@@ -87,12 +89,12 @@
   /* !  list container section */
   .list_container {
     grid-template-columns: 1fr;
-    padding: 0 24px;
     gap: 44px;
   }
 
   .list_container_left {
     gap: 25px;
+    justify-content: center;
   }
 
   .list_container_left .img {
@@ -120,5 +122,67 @@
   }
   .list_container_right .img p {
     font-size: 15px;
+  }
+
+  /* ! health section */
+
+  .health {
+    flex-direction: column;
+    /* padding: 0 24px; */
+  }
+
+  .health_content {
+    margin-top: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .health_title {
+    max-width: 295px;
+    color: #d1c0f1;
+    text-align: center;
+    font-family: Lora;
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .health_desc {
+    margin-top: 24px;
+    max-width: 331px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .health_section_btn {
+    font-size: 15px;
+  }
+  .health_rate_title {
+    font-size: 13px;
+  }
+  .health_rate_container {
+    top: 35px;
+    left: -15px;
+  }
+  .health_rate_container .img {
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+  }
+  .health_rate_container .img img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .health_rate {
+    font-size: 12px;
+  }
+
+  .free_course {
+    right: 0;
+  }
+  .free_course p:first-child {
+    font-size: 12px;
+  }
+  .free_course p:last-child {
+    font-size: 13px;
   }
 }

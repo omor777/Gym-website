@@ -262,14 +262,14 @@ nav a:hover {
 }
 
 .health_img {
-  height: 582px;
-  background-image: url("../images/health-fitness.png");
-  background-repeat: no-repeat;
   flex-basis: 46%;
   position: relative;
 }
+.health_img > img {
+  width: 100%;
+}
 .health_rate_container {
-  position: relative;
+  position: absolute;
   top: 72px;
   left: 10px;
   display: flex;
@@ -293,7 +293,6 @@ nav a:hover {
 
 .health_rate_title {
   color: #d1c0f1;
-  /* text-align: center; */
   font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
@@ -310,9 +309,9 @@ nav a:hover {
 }
 
 .free_course {
-  width: fit-content;
   padding: 8px 12px;
   position: absolute;
+  width: fit-content;
   border-radius: 12px;
   background: #372a51;
   right: 45px;
@@ -335,7 +334,7 @@ nav a:hover {
   font-size: 16px;
   font-weight: 500;
 }
-
+/* ! images  */
 .health_content {
   flex-basis: 52%;
 }

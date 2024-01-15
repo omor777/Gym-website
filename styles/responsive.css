@@ -27,7 +27,7 @@
     left: 36px;
   }
   .circle_position {
-    right: 100px;
+    right: 60px;
     top: 266px;
     left: unset;
   }
@@ -62,7 +62,7 @@
 
   .banner_btn {
     display: block;
-    margin: 24px auto 32px;
+    margin: 34px auto 32px;
     font-size: 15px;
     gap: 0;
   }
@@ -82,5 +82,43 @@
 
   .stat_container p {
     font-size: 13px;
+  }
+
+  /* !  list container section */
+  .list_container {
+    grid-template-columns: 1fr;
+    padding: 0 24px;
+    gap: 44px;
+  }
+
+  .list_container_left {
+    gap: 25px;
+  }
+
+  .list_container_left .img {
+    width: 230px;
+    height: 100px;
+  }
+  .list_container_left h2 {
+    font-size: 28px;
+  }
+  .list_container_left .img img {
+    width: 180px;
+    height: 112px;
+    top: -26px;
+    left: 30px;
+  }
+
+  .list_container_right {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .list_container_right > p {
+    font-size: 15px;
+    text-align: center;
+    max-width: unset;
+  }
+  .list_container_right .img p {
+    font-size: 15px;
   }
 }

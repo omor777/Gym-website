@@ -13,5 +13,74 @@
     align-items: center;
     gap: 20px;
   }
-}
 
+  /* ! banner section */
+  .banner {
+    flex-direction: column;
+    padding: 0 24px;
+  }
+
+  .star_position {
+    width: 52px;
+    height: 50px;
+    top: 128px;
+    left: 36px;
+  }
+  .circle_position {
+    right: 100px;
+    top: 266px;
+    left: unset;
+  }
+  .circle_position img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .banner_content {
+    padding-left: 0;
+  }
+
+  .banner_title {
+    max-width: 271px;
+    text-align: center;
+    font-size: 44px;
+    line-height: 135%;
+    margin: 0 auto;
+  }
+
+  .banner_title span {
+    padding: 5px 14px 6px 11px;
+  }
+
+  .banner_desc {
+    max-width: 381px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 19px auto 0;
+  }
+
+  .banner_btn {
+    display: block;
+    margin: 24px auto 32px;
+    font-size: 15px;
+    gap: 0;
+  }
+
+  .banner_btn i {
+    margin-left: 4px;
+  }
+
+  .stat_container h2 {
+    font-size: 28px;
+  }
+
+  .stat_container {
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  .stat_container p {
+    font-size: 13px;
+  }
+}

@@ -154,8 +154,6 @@ nav a:hover {
   padding: 16px 28px;
   border-radius: 64px;
   background: linear-gradient(73deg, #ff52af 11.6%, #9f53ff 83.86%);
-  display: flex;
-  align-items: center;
   gap: 8px;
 }
 

@@ -252,3 +252,117 @@ nav a:hover {
   font-size: 16px;
   font-weight: 500;
 }
+
+/* ! health section style */
+.health {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.health_img {
+  height: 582px;
+  background-image: url("../images/health-fitness.png");
+  background-repeat: no-repeat;
+  flex-basis: 46%;
+  position: relative;
+}
+.health_rate_container {
+  position: relative;
+  top: 72px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: #372a51;
+  width: fit-content;
+}
+
+.health_rate_container .img {
+  width: 50px;
+  height: 50px;
+  background: #ffe6e5;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  padding: 9px;
+}
+
+.health_rate_title {
+  color: #d1c0f1;
+  /* text-align: center; */
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.health_rate {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  background: linear-gradient(73deg, #ff52af 11.6%, #9f53ff 83.86%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.free_course {
+  width: fit-content;
+  padding: 8px 12px;
+  position: absolute;
+  border-radius: 12px;
+  background: #372a51;
+  right: 45px;
+  bottom: 30px;
+}
+.free_course p:first-child {
+  background: linear-gradient(#ff52af 11.6%, #9f53ff 83.86%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.free_course p:last-child {
+  color: #d1c0f1;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.health_content {
+  flex-basis: 52%;
+}
+
+.health_title {
+  color: #d1c0f1;
+  font-family: Lora;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.health_desc {
+  margin-top: 40px;
+  color: #a094b8;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 579px;
+}
+
+.health_section_btn {
+  padding: 16px 28px;
+  border-radius: 64px;
+  background: linear-gradient(73deg, #ff52af 11.6%, #9f53ff 83.86%);
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 32px;
+}
